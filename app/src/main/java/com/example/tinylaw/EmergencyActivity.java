@@ -6,6 +6,8 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Camera;
+import android.hardware.camera2.CameraManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -31,10 +33,12 @@ public class EmergencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency);
         mTextView = findViewById(R.id.text);
+
         //Starting emergency response feature by checking settings permission
         if (checkSystemWritePermission()) {
             contentResolver = getContentResolver();
             window = getWindow();
+
             //Turns off auto-brightness
             try {
                 Settings.System.putInt(contentResolver,
@@ -42,26 +46,41 @@ public class EmergencyActivity extends AppCompatActivity {
             } catch (Exception e) {
                 Log.e("Error", "No access");
             }
+
             //Stores user's current brightness setting
             userBrightness = (int)window.getAttributes().screenBrightness;
             Settings.System.putInt(contentResolver, Settings.System.SCREEN_BRIGHTNESS, brightness);
             WindowManager.LayoutParams layout = window.getAttributes();
+
             //Sets minimum brightness to layout object and screen
             layout.screenBrightness = brightness;
             window.setAttributes(layout);
+        } else {
+            //Black screen
+        }
 
-            //Acquire emergency contacts, send initial message
+        //Acquire emergency contacts, send initial message
 
-            //Start recording, save output vid file
-            /*if (hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
-                //
-            }*/
+        //Start recording, save output vid file
+        /*
+        CameraManager camMan = getInstance();
+        if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY)) {
+            //
+        }*/
 
-            //Send output vid file to emergency contacts
+        //Send output vid file to emergency contacts
 
-            //Restores user's original brightness setting
+        //Restores user's original brightness setting
+        if (checkSystemWritePermission()) {
+            contentResolver = getContentResolver();
+            window = getWindow();
+            Settings.System.putInt(contentResolver, Settings.System.SCREEN_BRIGHTNESS, userBrightness);
+            WindowManager.LayoutParams layout = window.getAttributes();
+            //Sets minimum brightness to layout object and screen
             layout.screenBrightness = userBrightness;
             window.setAttributes(layout);
+        } else {
+            //Undo black screen
         }
     }
 
