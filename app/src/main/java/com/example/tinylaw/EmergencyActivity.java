@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -52,6 +53,9 @@ public class EmergencyActivity extends AppCompatActivity {
             //Acquire emergency contacts, send initial message
 
             //Start recording, save output vid file
+            if (hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+                //
+            }
 
             //Send output vid file to emergency contacts
 
