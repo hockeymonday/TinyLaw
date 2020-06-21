@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     Button button3;
     Button button4;
     Button button5;
+    JSONArray infoList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             JSONObject jsonObject = new JSONObject(loadJSONFromAsset(language));
             JSONObject info = jsonObject.getJSONObject("info");
-            JSONArray infoList = info.getJSONArray("categories");
+            infoList = info.getJSONArray("categories");
 
 
             //collect name of each category
@@ -120,6 +121,48 @@ public class MainActivity extends AppCompatActivity {
         } catch(JSONException e){
             e.printStackTrace();
         }
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.wtf("here","dang");
+                Intent policeIntent = new Intent(MainActivity.this, PoliceActivity.class);
+                try {
+                    policeIntent.putExtra("police", infoList.get(0).toString());
+                    startActivity(policeIntent);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     //Call JSON
