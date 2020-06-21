@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
         getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
 
-
+        // JSON parsing
         try {
             JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
             JSONObject info = jsonObject.getJSONObject("info");
