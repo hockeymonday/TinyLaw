@@ -58,16 +58,16 @@
                                 "DO NOT attempt to harm officers, police will act accordingly in the event they believe their lives are in danger.",
                                 "DO NOT consent to a search unless the officer can present a warrant with your name."],
                             "importantThingsToKnow":[""],
-                            "sources":[""]
+                            "sources":["\"https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door\""]
                         },
                         {
                             "category":"My rights have been violated...",
                             "allowThese":["List down all evidence relative to what happened. Get in contact with witnesses, if you are injured, seek medical help & photograph your injuries",
-                                "File a complaint to their agency's internal affairs divison or civilian complaint board. You even can file a complaint anonymously"
+                                "File a complaint to their agency's internal affairs division or civilian complaint board. You even can file a complaint anonymously"
                             ],
-                            "doNotAllowThese":[""],
+                            "doNotAllowThese":["DO NOT allow someone else's rights to be violated while you stand by"],
                             "importantThingsToKnow":[""],
-                            "sources":[""]
+                            "sources":["\"https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door\""]
                         }
                     ]
                 },
@@ -79,7 +79,7 @@
                             "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
                                 "If your over the age of 18, keep your papers with you at all times. If you do not have them, exercise your right to remain silent or ask to speak to a lawyer.",
                                 "If you are not a US citizen, and an immigration agent asks for your papers, you must show them if you have them with you.",
-                                "If an immigration agent asks to search you, you have the right to say no. Agents do not have the right to search you or your possesions without consent or reason"],
+                                "If an immigration agent asks to search you, you have the right to say no. Agents do not have the right to search you or your possessions without consent or reason"],
                             "doNotAllowThese":["DO NOT bargain with the officer. You have nothing to gain and everything to lose. If you are unsure, remain silent.",
                                 "DO NOT run, argue or obstruct the officer, even if the arrest may seem unfair. Follow the officers instructions and keep calm."],
                             "importantThingsToKnow":["In some states, you are  required to show your name to law enforcement in an encounter, you are not obligated to answer other questions.",
@@ -89,11 +89,11 @@
                             "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#law-enforcement-asks-about-my-immigration-status"]
                         },
                         {
-                            "category":"I've been stopped by police or ICE",
+                            "category":"I've been stopped by police or ICE...",
                             "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
                                 "You have the right to a phone call. Officers cannot listen if you are speaking to a lawyer, they will often listen to the calls you make.",
                                 "If you are detained by ICE, you have the right to speak to a lawyer, but the government is not obligated to give you one.",
-                                "You are not obligated to answer questions about where you were born, your citizenship status, or how you entered the country. (Separate rules apply at international borders and airports, and for individuals on certain nonimmigrant visas, including tourists and business travelers.)",
+                                "You are not obligated to answer questions about where you were born, your citizenship status, or how you entered the country. (Separate rules apply at international borders and airports, and for individuals on certain non-immigrant visas, including tourists and business travelers.)",
                                 "You do not have to consent to officers searching you, however officers may pat you down if they suspect a weapon."],
                             "doNotAllowThese":["DO NOT run, argue or obstruct the officer, even if the arrest may seem unfair. Follow the officers instructions and keep calm.",
                                 "DO NOT lie or present false documents."],
@@ -103,7 +103,7 @@
                             "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
                         },
                         {
-                            "category":"Police or ICE are at  my home",
+                            "category":"Police or ICE are at  my home...",
                             "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
                                 "Ask to see the agent's identification through a window, and if they have a signed warrant that explains the search..",
                                 "If you are detained by ICE, you have the right to speak to a lawyer, but the government is not obligated to give you one."],
@@ -115,7 +115,7 @@
                             "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
                         },
                         {
-                            "category":"I need help from police",
+                            "category":"I need help from police...",
                             "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
                                 "If you are detained by police, you retain the right to speak to a lawyer.",
                                 "You are not obligated to answer questions about where you were born, your citizenship status, or how you entered the country.",
@@ -125,7 +125,7 @@
                             "importantThingsToKnow":["Keep a copy of your immigration documents with someone you trust",
                                 "You have the right to contact your consulate or have an officer inform the consulate of your detention",
                                 "Remember your immigration number and share it with your family, it will help them track you."],
-                            "sources":[""]
+                            "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
                         }
                     ]
                 },
@@ -139,7 +139,8 @@
                                            "Contact a lawyer through Break the Cycle if you live in Washington DC or Los Angeles.",
                                            "File for a restraining order. You may contact your local domestic violence hotline or shelter for help."],
                             "doNotAllowThese": ["DO NOT speak up when you are not ready."],
-                            "importantThingsToKnow":["Minors require extra legal attention when filing for a restraining order."]
+                            "importantThingsToKnow":["Minors require extra legal attention when filing for a restraining order."],
+                            "sources": ["https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236"]
                         },
                         {
                             "category": "Where can I call to discuss my situation?",
@@ -147,8 +148,19 @@
                                            "If you are unable to speak, you can log onto thehotline.org",
                                            "Text LOVEIS to 1-866-331-9474."],
                             "doNotAllowThese": ["",""],
+                            "importantThingsToKnow": [""],
                             "sources": ["https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236",
                                         "https://www.thehotline.org"]
+                        },
+                        {
+                            "category": "Safety with an abuser",
+                            "allowThese": ["Create a plan with your children if you have any.", "Try to stay clear of the abuser's path when it seems they may be preparing to abuse you.",
+                                           "Find the safest places in your home",
+                                           "Prepare for departure for a safe haven when necessary."],
+                            "doNotAllowThese": ["DO NOT blame your children for your abuse.",
+                                                "DO NOT hesitate to call 1-800-799-7233 when the opportunity presents itself. This is the Domestic Abuse hotline."],
+                            "importantThingsToKnow": [""],
+                            "sources": ["https://www.womenslaw.org/about-abuse/safety-tips/domestic-violence-victims/safety-abuser"]
                         }
                     ]
                 },
@@ -160,18 +172,35 @@
                             "allowThese": ["Stay in traditional public forums, which are areas such as parks, streets, and sidewalks.",
                                            "Feel free to photograph anything in public view.",
                                            "Feel free to march in the streets so long as you're not obstructing traffic."],
-                            "doNotAllowThese": ["DO NOT aggravate any counterprotesters. Ensure that you are a safe distance away and continue pursuing your message.",
-                                                "DO NOT upload photos of individual protestors. These images can be used by law enforcement to track particular people and unfairly subdue them."],
+                            "doNotAllowThese": ["DO NOT aggravate any counter-protesters. Ensure that you are a safe distance away and continue pursuing your message.",
+                                                "DO NOT upload photos of individual protesters. These images can be used by law enforcement to track particular people and unfairly subdue them."],
                             "importantThingsToKnow": ["Be loud. Be heard. Exercise your right to free speech."],
                             "sources": ["https://www.aclu.org/know-your-rights/protesters-rights/#im-attending-a-protest"]
                         },
                         {
                             "category": "I'm organizing a protest",
-                            "allowThese": [],
-                            "doNotAllowThese": [],
-                            "importantThingsToKnow": [],
-                            "sources": []
-
+                            "allowThese": ["Feel free to organize in response to breaking news even for something that would otherwise require an application. Police cannot use this to prevent the gathering.",
+                                           "Be aware that you cannot be restricted unless you are directly blocking traffic."],
+                            "doNotAllowThese": ["DO NOT cross into privately owned property, for which the use is governed by the property owner."],
+                            "importantThingsToKnow": ["Marches, parades, and large rallies require permits.",
+                                                      "No permit can be denied on the basis of the views which the protest espouses.",
+                                                      "Pay attention to particularly hostile officers and retain their identification information." ],
+                            "sources": ["https://www.aclu.org/know-your-rights/protesters-rights/"]
+                        },
+                        {
+                            "category":"I have been stopped by an officer while protesting...",
+                            "allowThese":["Stay calm. Do your best not to exacerbate the situation by not resisting, yelling at, or running from officers.",
+                                "Remember your right to remain silent, and exercise it by saying 'I exercise my right to remain silent. I request to speak to a lawyer.'",
+                                "Ask the officer if you are being detained or arrested. If the answer is no, you may walk away.",
+                                "If you are arrested, you are allowed to make one phone call. Use this to call a lawyer, as any other call can by spied on by officers.",
+                                "After the encounter, write down all of the information you can remember. Keep track of the officer's name, badge number, agency, and patrol car number."],
+                            "doNotAllowThese":["DO NOT apologize. This can be used as an admission of guilt, even if you aren't guilty.",
+                                "DO NOT sign anything you cannot read or fully understand.",
+                                "DO NOT consent to a search unless the officer can present a warrant with your name.",
+                                "DO NOT bargain with the officer. You have nothing to gain and everything to lose. If you are unsure, remain silent."],
+                            "importantThingsToKnow":["If you see a police encounter gone awry, record it, and make it very obvious that you are recording. The easiest way to do this is by saying so. Officers may not delete your documenting, or confiscate your phone without a warrant."
+                            ],
+                            "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
                         }
                     ]
                 },
@@ -179,32 +208,40 @@
                     "name": "Discrimination",
                     "subcategories": [
                         {
-                            "category": "Sex/Gender",
-                            "allowThese": [""],
-                            "doNotAllowThese": [""],
-                            "importantThingsToKnow": [""],
-                            "sources": [""]
+                            "category": "Sex/Gender Discrimination",
+                            "allowThese": ["Check any policies your employer on discrimination and harassment.",
+                                "Report it to your human resources department.",
+                                "File an Equal Employment Opportunity Commission complaint."],
+                            "doNotAllowThese": ["DO NOT stay silent if you observe this occurring in your workplace."],
+                            "importantThingsToKnow": ["Under Title VII of the Civil Rights Act of 1964, employees, job applicants, and union members are protected from sex discrimination at the workplace and at the union hall."
+                                ],
+                            "sources": ["https://www.aclu.org/know-your-rights/sex-discrimination/#im-experiencing-sex-based-discrimination-on-campus"]
                         },
                         {
-                            "category": "Race",
-                            "allowThese": [""],
-                            "doNotAllowThese": [""],
+                            "category": "Racial Discrimination",
+                            "allowThese": ["Gather all of the information you may need in order to support your case.",
+                            "Ensure you can point to another ethnicity or race that unfairly received better treatment.",
+                            "File an Equal Employment Opportunity Commission complaint."],
+                            "doNotAllowThese": ["DO NOT stay silent if you witness this occurring in your workplace"],
                             "importantThingsToKnow": [""],
-                            "sources": [""]
+                            "sources": ["https://www.aclu.org/know-your-rights/discrimination-on-the-basis-of-race-ethnicity-or-national-origin/#race-ethnicity-or-national-origin-based-discrimination-at-work"]
                         },
                         {
-                            "category": "LGBT+",
-                            "allowThese": [""],
-                            "doNotAllowThese": [""],
-                            "importantThingsToKnow": [""],
-                            "sources": [""]
+                            "category": "LGBT+ Discrimination",
+                            "allowThese": ["Be aware that you cannot be discriminated against at work or school for your sexuality.",
+                                           "Gather all of the information you may need to support your case"],
+                            "doNotAllowThese": ["DO NOT stay silent if you witness this occurring in your workplace"],
+                            "importantThingsToKnow": ["Housing discrimination based on sexuality is illegal, and you should report it if this happens to you.",
+                                                      "It is illegal your school to out you publicly, even if you have outed yourself."],
+                            "sources": ["https://www.aclu.org/know-your-rights/lgbtq-rights/"]
                         },
                         {
-                            "category": "Religion",
-                            "allowThese": [""],
-                            "doNotAllowThese": [""],
+                            "category": "Religious Discrimination",
+                            "allowThese": ["Be aware that you cannot be discriminated against at work or school for your sexuality.",
+                                "Gather all of the information you may need to support your case", "File an Equal Employment Opportunity claim"],
+                            "doNotAllowThese": ["DO NOT stay silent if you witness this occurring in your workplace"],
                             "importantThingsToKnow": [""],
-                            "sources": [""]
+                            "sources": ["https://www.aclu.org/know-your-rights/religious-freedom/"]
                         }
                     ]
                 }
