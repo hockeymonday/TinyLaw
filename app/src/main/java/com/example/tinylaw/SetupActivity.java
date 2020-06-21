@@ -58,7 +58,6 @@ public class SetupActivity extends AppCompatActivity implements AdapterView.OnIt
             @Override
             public void onClick(View v) {
                 intent.putExtra("language", item);
-                Log.d("deez", item);
                 startActivity(intent);
             }
         });
