@@ -125,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.wtf("here","dang");
                 Intent policeIntent = new Intent(MainActivity.this, PoliceActivity.class);
                 try {
                     policeIntent.putExtra("police", infoList.get(0).toString());
