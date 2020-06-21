@@ -1,0 +1,102 @@
+[
+    {
+        "category": "Police Encounters",
+        "subcategories":[
+            {
+                "category":"You've been pulled over...",
+                "allowThese":["Pull over at the most immediate safe space.", 
+                              "Turn on your internal lights and roll your windows halfway down.", 
+                              "Place your hands on your steering wheel, clearly visible. The passenger's hands should be on the dashboard.",
+                              "When asked, slowly and deliberately present your license and registration.",
+                              "Remember your right to remain silent, and exercise it by saying 'I exercise my right to remain silent. I request to speak to a lawyer.'"],
+                "doNotAllowThese":["DO NOT apologize. This can be used as an admission of guilt, even if you aren't guilty.",
+                                   "DO NOT sign anything you cannot read or fully understand.",
+                                   "DO NOT consent to a search unless the officer can present a warrant with your name.",
+                                   "DO NOT bargain with the officer. You have nothing to gain and everything to lose. If you are unsure, remain silent."],
+                "importantThingsToKnow":["Keep private items out of view. Officers are looking for other things they can book you for, but they cannot search you for anything you do not allow.",
+                                         "Be courteous and non-confrontational. This will help you avoid any charges for resisting arrest.",
+                                         "Keep your hands as visible as possible, and announce your movements as you make them."],
+                "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
+            },
+            {
+                "category":"You have been detained in public...",
+                "allowThese":["Stay calm. Do your best not to exacerbate the situation by not resisting, yelling at, or running from officers.",
+                              "Remember your right to remain silent, and exercise it by saying 'I exercise my right to remain silent. I request to speak to a lawyer.'",
+                              "Ask the officer if you are being detained or arrested. If the answer is no, you may walk away.",
+                              "If you are arrested, you are allowed to make one phone call. Use this to call a lawyer, as any other call can by spied on by officers.",
+                              "After the encounter, write down all of the information you can remember. Keep track of the officer's name, badge number, agency, and patrol car number."],
+                "doNotAllowThese":["DO NOT apologize. This can be used as an admission of guilt, even if you aren't guilty.",
+                    "DO NOT sign anything you cannot read or fully understand.",
+                    "DO NOT consent to a search unless the officer can present a warrant with your name.",
+                    "DO NOT bargain with the officer. You have nothing to gain and everything to lose. If you are unsure, remain silent."],
+                "importantThingsToKnow":["If you see a police encounter gone awry, record it, and make it very obvious that you are recording. The easiest way to do this is by saying so. Officers may not delete your documenting, or confiscate your phone without a warrant.",
+                                        ],
+                "source":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
+            },
+            {
+                "category":"Police have arrived at your house...",
+                "allowThese":["Ask the officer to slip the warrant under the door or hold it up to the window.",
+                              "Officers may not search your home without a warrant, and even if they have one you can still elect to remain silent."],
+                "doNotAllowThese":["DO NOT invite the officer into your home. They cannot searc without an arrest clearly listing your name and address.",
+                                   "Even if you are not staying in your own home, you are not required to allow the officers entry."],
+                "importantThingsToKnow":,
+                "source":,
+            },
+            {
+                "category":"You have been arrested...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            },
+            {
+                "category":"Your rights have been violated...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            }
+    ]
+    },
+    {
+        "category": "",
+        "subcategories":[
+            {
+                "category":"You've been pulled over...",
+                "allowThese":"As it turns out, you've got some options here. The first thing you should be sure
+                of is that you never go beyond any sort of...",
+                "doNotAllowThese":"DO NOT do these things...",
+                "importantThingsToKnow":"Make sure you...",
+                "source":
+            },
+            {
+                "category":"You have been detained in public...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            },
+            {
+                "category":"Police have arrived at your house...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            },
+            {
+                "category":"You have been arrested...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            },
+            {
+                "category":"Your rights have been violated...",
+                "allowThese":,
+                "doNotAllowThese":,
+                "importantThingsToKnow":,
+                "source":,
+            }
+    ]
+    }
+]
