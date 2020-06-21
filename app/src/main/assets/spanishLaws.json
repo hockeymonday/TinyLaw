@@ -1,224 +1,499 @@
 
-  {
-    "status": "success, ik i don't need this",
-    "info": {
-      "categories": [
-        {
-          "name": "Encuentros con la policía",
-          "subcategories": [
-            {
-              "category": "Me han detenido ...",
-              "allowThese":["Deténgase en el espacio seguro más inmediato.",
-                "Encienda las luces internas y baje las ventanas hasta la mitad.",
-                "Coloque las manos en el volante, claramente visibles. Las manos del pasajero deben estar en el tablero.",
-                "Cuando se le solicite, presente lenta y deliberadamente su licencia y registro.",
-                "Recuerde su derecho a permanecer en silencio y ejercítelo diciendo 'Ejerzo mi derecho a permanecer en silencio. Solicito hablar con un abogado'."],
-              "doNotAllowThese":["NO te disculpes. Esto puede usarse como una admisión de culpa, incluso si no eres culpable.",
-                "NO firme nada que no pueda leer o que no entienda completamente.",
-                "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre.",
-                "NO negocies con el oficial. No tienes nada que ganar ni mucho que perder. Si no estás seguro, permanece en silencio."],
-              "importantThingsToKnow":[
-                "Mantenga los elementos privados fuera de la vista. Los oficiales están buscando otras cosas para las que pueden reservar, pero no pueden buscarle nada que no permita.",
-                "Sea cortés y sin confrontaciones. Esto lo ayudará a evitar cualquier cargo por resistir el arresto.",
-                "Mantén tus manos lo más visibles posible y anuncia tus movimientos a medida que los haces."],
-              "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
-            },
-            {
-              "category":["He sido detenido en público ..."],
-              "allowThese":["Mantén la calma. Haz tu mejor esfuerzo para no exacerbar la situación al no resistirte, gritarle o huir de los oficiales.",
-                "Recuerde su derecho a permanecer en silencio y ejercítelo diciendo 'Ejerzo mi derecho a permanecer en silencio. Solicito hablar con un abogado.'",
-                "Pregúntele al oficial si está siendo detenido o arrestado. Si la respuesta es no, puede marcharse.",
-                "Si lo arrestan, se le permite hacer una llamada telefónica. Use esto para llamar a un abogado, ya que cualquier otra llamada puede ser espiada por oficiales.",
-                "Después del encuentro, escriba toda la información que pueda recordar. Lleve un registro del nombre del oficial, número de credencial, agencia y número de patrulla."],
-              "doNotAllowThese":[
-                "NO te disculpes. Esto puede usarse como una admisión de culpa, incluso si no eres culpable.",
-                "NO firme nada que no pueda leer o que no entienda completamente",
-                "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre",
-                "NO negocies con el oficial. No tienes nada que ganar y mucho que perder. Si no estás seguro, permanece en silencio."],
-              "importantThingsToKnow":[
-                "Si ve que un encuentro policial salió mal, grábelo y haga que sea muy obvio que está grabando. La forma más fácil de hacerlo es decirlo. Los oficiales no pueden borrar sus documentos ni confiscar su teléfono sin una orden judicial."
-              ],
-              "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
-            },
-            {
-              "category":"La policía ha llegado a mi casa ...",
-              "allowThese":["Pídale al oficial que deslice la orden debajo de la puerta o que la sostenga en la ventana.",
-                "Los oficiales no pueden registrar su casa sin una orden judicial, e incluso si tienen una, aún puede elegir permanecer en silencio."],
-              "doNotAllowThese":[
-                "NO invite al oficial a su casa. No pueden buscar sin un arresto que indique claramente su nombre y dirección, incluso si no es su casa, no está obligado a permitir que el oficial entre.",
-                "NO firme nada que no pueda leer o comprender completamente."],
-              "importantThingsToKnow":["If your a guest in the house, make it clear to the police that you do not have the authority to let them inside without the homeowner's permission."],
-              "source":["https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door"]
-            },
-            {
-              "category":"He sido arrestado ...",
-              "allowThese":["Recuerde que tiene derecho a permanecer en silencio, no responda ninguna pregunta ni tome decisiones sin un abogado",
-                "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace.",
-                "Si la policía te hace daño físicamente con moderación, deja en claro a la policía cómo te están lastimando",
-                "Sea cortés y pasivo. Esto ayudará a evitar cualquier cargo por resistir el arresto."],
-              "doNotAllowThese":["NO resista el arresto, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
-                "NO tome decisiones, explique nada ni firme nada sin su abogado. Incluso si no puede pagar por uno, tiene derecho a un abogado gratuito.",
-                "NO haga movimientos bruscos. Muévase muy deliberadamente y deje en claro a los oficiales lo que está haciendo, los oficiales tomarán medidas si creen que está buscando un arma.",
-                "NO intente dañar a los oficiales, la policía actuará en consecuencia en caso de que crean que sus vidas están en peligro.",
-                "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre."],
-              "importantThingsToKnow":[""],
-              "sources":[""]
-            },
-            {
-              "category": "Mis derechos han sido violados ...",
-              "allowThese":[
-                "Enumere todas las pruebas relacionadas con lo que sucedió. Póngase en contacto con testigos, si está lesionado, busque ayuda médica y fotografíe sus lesiones.",
-                "Presente una queja en la división de asuntos internos de su agencia o en la junta de quejas civiles. Incluso puede presentar una queja de forma anónima."
-              ],
-              "doNotAllowThese":[""],
-              "importantThingsToKnow":[""],
-              "sources":[""]
-            }
-          ]
-        },
-        {
-          "name": "Derechos de los inmigrantes",
-          "subcategories": [
-            {
-              "category":"La policía pregunta por mi estado migratorio ...",
-              "allowThese":[
-                "Recuerde su derecho a permanecer en silencio, no tiene que explicar o conversar sobre su estado migratorio a las fuerzas del orden.",
-                "Si es mayor de 18 años, mantenga sus documentos con usted en todo momento. Si no los tiene, ejerza su derecho a permanecer en silencio o solicite hablar con un abogado.",
-                "Si no es ciudadano de los EE. UU. Y un agente de inmigración le pide sus documentos, debe mostrarlos si los tiene.",
-                "Si un agente de inmigración le solicita que lo busque, tiene derecho a decir que no. Los agentes no tienen derecho a registrarlo a usted ni a sus posesiones sin su consentimiento o razón."],
-              "doNotAllowThese":["NO negocies con el oficial. No tienes nada que ganar ni mucho que perder. Si no estás seguro, permanece en silencio.",
-                "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma."],
-              "importantThingsToKnow":[
-                "En algunos estados, se requiere que muestre su nombre a la policía en un encuentro, no está obligado a responder otras preguntas.",
-                "Si lo detienen, el oficial puede exigirle que muestre su licencia, registro de vehículo y comprobante de seguro, su estado de inmigración no está incluido.",
-                "Los oficiales de ICE pueden preguntarle sobre su estado migratorio al salir o ingresar al país. Si usted es un LPR que ha mantenido su estado y residencia permanente, solo tiene que responder preguntas sobre su identidad y residencia, no pueden negarle la entrada al país. Estados Unidos por no responder otras preguntas.",
-                "Si usted es un titular de visa no ciudadano, se le puede negar la entrada a los Estados Unidos por no responder las preguntas."],
-              "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#law-enforcement-asks-about-my-immigration-status"]
-            },
-            {
-              "category": "He sido detenido por la policía o ICE",
-              "allowThese":[
-                "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
-                "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace.",
-                "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno.",
-                "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país. (Se aplican reglas separadas en las fronteras y aeropuertos internacionales, y para personas con ciertas visas de no inmigrante, incluidos turistas y viajeros de negocios). ",
-                "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma."],
-              "doNotAllowThese":[
-                "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
-                "NO mienta ni presente documentos falsos."],
-              "importantThingsToKnow":["Guarde una copia de sus documentos de inmigración con alguien de su confianza",
-                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención",
-                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
-              "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
-            },
-            {
-              "category": "La policía o ICE están enfrente de mi casa",
-              "allowThese":["Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
-                "Pida ver la identificación del agente a través de una ventana, y si tienen una orden firmada que explique la búsqueda ...",
-                "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno."],
-              "doNotAllowThese":["NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
-                "NO mienta ni presente documentos falsos."],
-              "importantThingsToKnow":["Guarde una copia de sus documentos de inmigración con alguien de su confianza.",
-                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención.",
-                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
-              "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
-            },
-            {
-              "category":"Necesito ayuda de la policia",
-              "allowThese":[
-                "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
-                "Si la policía lo detiene, se reserva el derecho de hablar con un abogado.",
-                "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país.",
-                "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma."],
-              "doNotAllowThese":["NO incluya ninguna información de inmigración cuando hable con los oficiales",
-                "NO mienta ni presente documentos falsos."],
-              "importantThingsToKnow":[
-                "Guarde una copia de sus documentos de inmigración con alguien de su confianza.",
-                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención.",
-                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
-              "sources":[""]
-            }
-          ]
-        },
-        {
-          "name":"Violencia doméstica",
-          "subcategories": [
-            {
-              "category": "¿Cómo escapo de mi pareja abusiva?",
-              "allowThese": ["Tiene derecho a estar libre de todas las formas de abuso",
-                "Encuentre un refugio seguro cerca de usted o quédese con un familiar.",
-                "Comuníquese con un abogado a través de Break the Cycle si vive en Washington DC o Los Ángeles",
-                "Solicite una orden de restricción. Puede ponerse en contacto con su línea directa local de violencia doméstica o refugio para obtener ayuda."],
-              "doNotAllowThese": ["NO hables cuando no estés listo."],
-              "importantThingsToKnow":["Los menores requieren atención legal adicional cuando solicitan una orden de restricción."]
-            },
-            {
-              "category": "¿Dónde puedo llamar para discutir mi situación?",
-              "allowThese": ["Llame al 1-800-799-7233.",
-                "Si no puede hablar, puede iniciar sesión en thehotline.org.",
-                "Envía un mensaje de texto con LOVEIS al 1-866-331-9474."],
-              "doNotAllowThese": ["",""],
-              "sources": ["https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236",
-                "https://www.thehotline.org"]
-            }
-          ]
-        },
-        {
-          "name": "Derechos del manifestante",
-          "subcategories": [
-            {
-              "category": "Estoy asistiendo a una protesta",
-              "allowThese": ["Quédese en los foros públicos tradicionales, que son áreas como parques, calles y aceras.",
-                "Siéntase libre de fotografiar cualquier cosa a la vista del público.",
-                "Siéntase libre de marchar en las calles siempre que no esté obstruyendo el tráfico."],
-              "doNotAllowThese": ["NO agrave a ningún contraprotestante. Asegúrese de estar a una distancia segura y continúe persiguiendo su mensaje.",
-                "NO suba fotos de manifestantes individuales. Estas imágenes pueden ser utilizadas por la policía para rastrear a personas particulares y someterlas injustamente."],
-              "importantThingsToKnow": ["Sé ruidoso. Sé escuchado. Ejerce tu derecho a la libertad de expresión."],
-              "sources": ["https://www.aclu.org/know-your-rights/protesters-rights/#im-attending-a-protest"]
-            },
-            {
-              "category": "Estoy organizando una protesta",
-              "allowThese": [],
-              "doNotAllowThese": [],
-              "importantThingsToKnow": [],
-              "sources": []
+{
 
-            }
-          ]
-        },
-        {
-          "name": "Discriminación",
-          "subcategories": [
-            {
-              "category": "Sexo / género",
-              "allowThese": [""],
-              "doNotAllowThese": [""],
-              "importantThingsToKnow": [""],
-              "sources": [""]
-            },
-            {
-              "category": "Raza",
-              "allowThese": [""],
-              "doNotAllowThese": [""],
-              "importantThingsToKnow": [""],
-              "sources": [""]
-            },
-            {
-              "category": "LGBT+",
-              "allowThese": [""],
-              "doNotAllowThese": [""],
-              "importantThingsToKnow": [""],
-              "sources": [""]
-            },
-            {
-              "category": "Religión",
-              "allowThese": [""],
-              "doNotAllowThese": [""],
-              "importantThingsToKnow": [""],
-              "sources": [""]
-            }
-          ]
+  "status" : "éxito, ik no necesito esto" ,
+
+  "info" : {
+
+    "categories" : [
+
+      {
+
+        "name" : "Encuentros policiales" ,
+
+        "subcategories" : [
+
+          {
+
+            "category" : "Me han detenido ..." ,
+
+            "allowThese" : [ "Deténgase en el espacio seguro más inmediato." ,
+
+              "Encienda las luces internas y baje las ventanas hasta la mitad." ,
+
+              "Coloque las manos en el volante, claramente visibles. Las manos del pasajero deben estar en el tablero." ,
+
+              "Cuando se le solicite, presente lenta y deliberadamente su licencia y registro." ,
+
+              "Recuerde su derecho a permanecer en silencio y ejercítelo diciendo 'Ejerzo mi derecho a permanecer en silencio. Solicito hablar con un abogado'" ] ,
+
+            "doNotAllowThese" : [ "NO te disculpes. Esto puede usarse como una admisión de culpa, incluso si no eres culpable." ,
+
+              "NO firme nada que no pueda leer o comprender completamente." ,
+
+              "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre." ,
+
+              "NO negocies con el oficial. No tienes nada que ganar y mucho que perder. Si no estás seguro, permanece en silencio." ] ,
+
+            "importantThingsToKnow" : [ "Mantenga los elementos privados fuera de la vista. Los oficiales están buscando otras cosas para las que pueden reservar, pero no pueden buscarle nada que no permita." ,
+
+              "Sea cortés y no contencioso. Esto lo ayudará a evitar cualquier cargo por resistirse al arresto." ,
+
+              "Mantén tus manos lo más visibles posible y anuncia tus movimientos a medida que los haces." ] ,
+
+            "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police" ]
+
+          } ,
+
+          {
+
+            "category" : "He sido detenido en público ..." ,
+
+            "allowThese" : [ "Mantén la calma. Haz tu mejor esfuerzo para no exacerbar la situación al no resistir, gritar o huir de los oficiales." ,
+
+              "Recuerde su derecho a permanecer en silencio y ejercítelo diciendo 'Ejerzo mi derecho a permanecer en silencio. Solicito hablar con un abogado'" ,
+
+              "Pregúntele al oficial si está siendo detenido o arrestado. Si la respuesta es no, puede retirarse." ,
+
+              "Si lo arrestan, se le permite hacer una llamada telefónica. Use esto para llamar a un abogado, ya que cualquier otra llamada puede ser espiada por oficiales." ,
+
+              "Después del encuentro, escriba toda la información que pueda recordar. Lleve un registro del nombre del oficial, número de credencial, agencia y número de patrulla." ] ,
+
+            "doNotAllowThese" : [ "NO te disculpes. Esto puede usarse como una admisión de culpa, incluso si no eres culpable." ,
+
+              "NO firme nada que no pueda leer o comprender completamente." ,
+
+              "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre." ,
+
+              "NO negocies con el oficial. No tienes nada que ganar y mucho que perder. Si no estás seguro, permanece en silencio." ] ,
+
+            "importantThingsToKnow" : [ "Si ve que un encuentro policial salió mal, grábelo y haga que sea muy obvio que está grabando. La forma más fácil de hacerlo es decirlo. Los oficiales no pueden eliminar su documentación ni confiscar su teléfono sin una orden judicial."
+
+            ] ,
+
+            "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police" ]
+
+          } ,
+
+          {
+
+            "category" : "La policía ha llegado a mi casa ..." ,
+
+            "allowThese" : [ "Pídale al oficial que deslice la orden debajo de la puerta o la sostenga en la ventana." ,
+
+              "Los oficiales no pueden registrar su casa sin una orden judicial, e incluso si tienen una, aún puede elegir permanecer en silencio." ] ,
+
+            "doNotAllowThese" : [ "NO invite al oficial a su casa. No pueden buscar sin un arresto que indique claramente su nombre y dirección, incluso si no es su casa, no está obligado a permitir que el oficial entre." ,
+
+              "NO firme nada que no pueda leer o comprender completamente." ] ,
+
+            "importantThingsToKnow" : [ "Si eres un invitado en la casa, deja en claro a la policía que no tienes la autoridad para dejarlos entrar sin el permiso del propietario." ] ,
+
+            "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door" ]
+
+          } ,
+
+          {
+
+            "category" : "He sido arrestado ..." ,
+
+            "allowThese" : [ "Recuerde que tiene derecho a permanecer en silencio, no responda ninguna pregunta o tome decisiones sin un abogado." ,
+
+              "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace" ,
+
+              "Si la policía te hace daño físicamente con moderación, deja en claro a la policía cómo te están haciendo daño." ,
+
+              "Sea cortés y pasivo. Esto ayudará a evitar cualquier cargo por resistir el arresto." ] ,
+
+            "doNotAllowThese" : [ "NO resista el arresto, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma" ,
+
+              "NO tome decisiones, explique nada ni firme nada sin su abogado. Incluso si no puede pagar por uno, tiene derecho a un abogado gratuito" ,
+
+              "NO haga movimientos repentinos. Muévase muy deliberadamente y deje en claro a los oficiales lo que está haciendo, los oficiales tomarán medidas si creen que está buscando un arma" ,
+
+              "NO intente dañar a los oficiales, la policía actuará en consecuencia en caso de que crean que sus vidas están en peligro" ,
+
+              "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre" ] ,
+
+            "importantThingsToKnow" : [ "" ] ,
+
+            "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door" ]
+
+              } ,
+
+              {
+
+                "category" : "Mis derechos han sido violados ..." ,
+
+                "allowThese" : [ "Enumere todas las pruebas relacionadas con lo que sucedió. Póngase en contacto con testigos, si está lesionado, busque ayuda médica y fotografíe sus lesiones" ,
+
+                  "Presente una queja en la división de asuntos internos de su agencia o en la junta civil de quejas. Incluso puede presentar una queja de forma anónima"
+
+                ] ,
+
+                "doNotAllowThese" : [ "NO permita que se violen los derechos de otra persona mientras está en espera" ] ,
+
+                "importantThingsToKnow" : [ "" ] ,
+
+                "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door"]
+
+                  }
+
+                ]
+
+              } ,
+
+              {
+
+                "name" : "Derechos de los inmigrantes" ,
+
+                "subcategories" : [
+
+                  {
+
+                    "category" : "La policía me pregunta sobre mi estado migratorio ..." ,
+
+                    "allowThese" : [ "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden" ,
+
+                      "Si es mayor de 18 años, mantenga sus documentos con usted en todo momento. Si no los tiene, ejerza su derecho a permanecer en silencio o solicite hablar con un abogado" ,
+
+                      "Si no es ciudadano estadounidense y un agente de inmigración le pide sus documentos, debe mostrarlos si los tiene con usted" ,
+
+                      "Si un agente de inmigración le solicita que lo busque, tiene derecho a decir que no. Los agentes no tienen derecho a registrarlo a usted ni a sus posesiones sin su consentimiento o razón" ] ,
+
+                    "doNotAllowThese" : [ "NO negocies con el oficial. No tienes nada que ganar ni mucho que perder. Si no estás seguro, permanece en silencio" ,
+
+                      "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma" ] ,
+
+                    "importantThingsToKnow" : [ "En algunos estados, se requiere que muestre su nombre a la policía en un encuentro, no está obligado a responder otras preguntas" ,
+
+                      "Si lo detienen, el oficial puede exigirle que muestre su licencia, registro de vehículo y comprobante de seguro, su estado migratorio no está incluido" ,
+
+                      "Los oficiales de ICE pueden preguntarle sobre su estado migratorio al salir o ingresar al país. Si usted es un LPR que ha mantenido su estado y residencia permanente, solo tiene que responder preguntas sobre su identidad y residencia, es posible que no le nieguen la entrada al país. Estados Unidos por no responder otras preguntas " ,
+
+                      "Si usted es un titular de visa no ciudadano, se le puede negar la entrada a los Estados Unidos por no responder las preguntas" ] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/immigrants-rights/#law-enforcement-asks-about-my-immigration-status" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "He sido detenido por la policía o ICE ..." ,
+
+                    "allowThese" : [ "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden",
+
+                      "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace",
+
+                      "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno",
+
+                      "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país. (Se aplican reglas separadas en las fronteras y aeropuertos internacionales, y para personas con ciertas visas de no inmigrantes, incluidos turistas y viajeros de negocios .) " ,
+
+                      "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma"] ,
+
+                    "doNotAllowThese" : [ "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma",
+
+                      "NO mienta ni presente documentos falsos"] ,
+
+                    "importantThingsToKnow" : [ "Guarde una copia de sus documentos de inmigración con alguien de su confianza" ,
+
+                      "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención" ,
+
+                      "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "La policía o ICE están en mi casa ..." ,
+
+                    "allowThese" : [ "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden",
+
+                      "Pida ver la identificación del agente a través de una ventana, y si tienen una orden firmada que explique la búsqueda ..." ,
+
+                      "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno"] ,
+
+                    "doNotAllowThese" : [ "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma",
+
+                      "NO mienta ni presente documentos falsos"] ,
+
+                    "importantThingsToKnow" : [ "Guarde una copia de sus documentos de inmigración con alguien de su confianza" ,
+
+                      "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención" ,
+
+                      "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Necesito ayuda de la policía ..." ,
+
+                    "allowThese" : [ "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden",
+
+                      "Si la policía lo detiene, se reserva el derecho de hablar con un abogado",
+
+                      "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país",
+
+                      "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma"] ,
+
+                    "doNotAllowThese" : [ "NO incluya ninguna información de inmigración cuando hable con los oficiales" ,
+
+                      "NO mienta ni presente documentos falsos"] ,
+
+                    "importantThingsToKnow" : [ "Guarde una copia de sus documentos de inmigración con alguien de su confianza" ,
+
+                      "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención" ,
+
+                      "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice" ]
+
+                  }
+
+                ]
+
+              } ,
+
+              {
+
+                "name" : "violencia doméstica" ,
+
+                "subcategories" : [
+
+                  {
+
+                    "category" : "¿Cómo escapo de mi pareja abusiva?" ,
+
+                    "allowThese" : [ "Tiene derecho a estar libre de todas las formas de abuso" ,
+
+                      "Encuentre un refugio seguro cerca de usted o quédese con un miembro de su familia",
+
+                      "Comuníquese con un abogado a través de Break the Cycle si vive en Washington DC o Los Ángeles",
+
+                      "Solicite una orden de restricción. Puede ponerse en contacto con su línea directa local de violencia doméstica o refugio para obtener ayuda"] ,
+
+                    "doNotAllowThese" : [ "NO hable cuando no esté listo"] ,
+
+                    "importantThingsToKnow" : [ "Los menores requieren atención legal adicional cuando solicitan una orden de restricción"] ,
+
+                    "sources" : [ "https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "¿Dónde puedo llamar para discutir mi situación?" ,
+
+                    "allowThese" : [ "Llame al 1-800-799-7233" ,
+
+                      "Si no puede hablar, puede iniciar sesión en thehotline.org" ,
+
+                      "Envía un mensaje de texto con LOVEIS al 1-866-331-9474"] ,
+
+                    "doNotAllowThese" : [ "" , "" ] ,
+
+                    "importantThingsToKnow" : [ "" ] ,
+
+                    "sources" : [ "https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236" ,
+
+                      "https://www.thehotline.org" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Seguridad con un abusador" ,
+
+                    "allowThese" : [ "Cree un plan con sus hijos si tiene alguno", "Trate de mantenerse alejado del camino del abusador cuando parezca que se está preparando para abusar de usted",
+
+                      "Encuentra los lugares más seguros en tu hogar" ,
+
+                      "Prepárese para partir hacia un refugio seguro cuando sea necesario"] ,
+
+                    "doNotAllowThese" : [ "NO culpe a sus hijos por su abuso",
+
+                      "NO dude en llamar al 1-800-799-7233 cuando se presente la oportunidad. Esta es la línea directa de abuso doméstico"] ,
+
+                    "importantThingsToKnow" : [ "" ] ,
+
+                    "sources" : [ "https://www.womenslaw.org/about-abuse/safety-tips/domestic-violence-victims/safety-abuser" ]
+
+                  }
+
+                ]
+
+              } ,
+
+              {
+
+                "name" : "Derechos del manifestante" ,
+
+                "subcategories" : [
+
+                  {
+
+                    "category" : "Asisto a una protesta" ,
+
+                    "allowThese" : [ "Quédese en los foros públicos tradicionales, que son áreas como parques, calles y aceras",
+
+                      "Siéntase libre de fotografiar cualquier cosa a la vista del público",
+
+                      "Siéntase libre de marchar en las calles siempre que no esté obstruyendo el tráfico"] ,
+
+                    "doNotAllowThese" : [ "NO agrave a ningún contra-manifestante. Asegúrese de estar a una distancia segura y continúe persiguiendo su mensaje",
+
+                      "NO suba fotos de manifestantes individuales. Estas imágenes pueden ser utilizadas por la policía para rastrear a personas particulares y someterlas injustamente"] ,
+
+                    "importantThingsToKnow" : [ "Sé ruidoso. Sé escuchado. Ejerce tu derecho a la libertad de expresión"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/protesters-rights/#im-attending-a-protest" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Estoy organizando una protesta" ,
+
+                    "allowThese" : [ "Siéntase libre de organizarse en respuesta a las últimas noticias, incluso para algo que de otra manera requeriría una aplicación. La policía no puede usar esto para evitar la reunión",
+
+                      "Tenga en cuenta que no puede restringirse a menos que esté bloqueando directamente el tráfico"] ,
+
+                    "doNotAllowThese" : [ "NO cruce a propiedad privada, cuyo uso está regido por el dueño de la propiedad"] ,
+
+                    "importantThingsToKnow" : [ "Las marchas, los desfiles y las grandes manifestaciones requieren permisos",
+
+                      "No se puede negar ningún permiso sobre la base de las opiniones que defiende la protesta",
+
+                      "Preste atención a los oficiales particularmente hostiles y conserve su información de identificación"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/protesters-rights/" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "He sido detenido por un oficial mientras protestaba ..." ,
+
+                    "allowThese" : [ "Mantén la calma. Haz tu mejor esfuerzo para no exacerbar la situación al no resistir, gritar o huir de los oficiales",
+
+                      "Recuerde su derecho a permanecer en silencio y ejercítelo diciendo 'Ejerzo mi derecho a permanecer en silencio. Solicito hablar con un abogado'" ,
+
+                      "Pregúntele al oficial si está siendo detenido o arrestado. Si la respuesta es no, puede retirarse",
+
+                      "Si lo arrestan, se le permite hacer una llamada telefónica. Use esto para llamar a un abogado, ya que cualquier otra llamada puede ser espiada por oficiales",
+
+                      "Después del encuentro, escriba toda la información que pueda recordar. Lleve un registro del nombre del oficial, número de credencial, agencia y número de patrulla"] ,
+
+                    "doNotAllowThese" : [ "NO te disculpes. Esto puede usarse como una admisión de culpa, incluso si no eres culpable",
+
+                      "NO firme nada que no pueda leer o comprender completamente",
+
+                      "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre",
+
+                      "NO negocies con el oficial. No tienes nada que ganar y mucho que perder. Si no estás seguro, permanece en silencio"] ,
+
+                    "importantThingsToKnow" : [ "Si ve que un encuentro policial salió mal, grábelo y haga que sea muy obvio que está grabando. La forma más fácil de hacerlo es decirlo. Los oficiales no pueden eliminar su documentación ni confiscar su teléfono sin una orden judicial."
+
+                    ] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police" ]
+
+                  }
+
+                ]
+
+              } ,
+
+              {
+
+                "name" : "Discriminación" ,
+
+                "subcategories" : [
+
+                  {
+
+                    "category" : "Discriminación de sexo / género" ,
+
+                    "allowThese" : [ "Verifique las políticas de su empleador sobre discriminación y acoso",
+
+                      "Informe a su departamento de recursos humanos",
+
+                      "Presente una queja de la Comisión de Igualdad de Oportunidades en el Empleo"] ,
+
+                    "doNotAllowThese" : [ "NO permanezca en silencio si observa que esto ocurre en su lugar de trabajo"] ,
+
+                    "importantThingsToKnow" : [ "Según el Título VII de la Ley de Derechos Civiles de 1964, los empleados, los solicitantes de empleo y los miembros del sindicato están protegidos contra la discriminación sexual en el lugar de trabajo y en el salón del sindicato."
+
+                    ] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/sex-discrimination/#im-experiencing-sex-based-discrimination-on-campus" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Discriminación racial" ,
+
+                    "allowThese" : [ "Reúna toda la información que pueda necesitar para respaldar su caso",
+
+                      "Asegúrese de que puede señalar a otra etnia o raza que injustamente recibió un mejor trato",
+
+                      "Presente una queja de la Comisión de Igualdad de Oportunidades en el Empleo"] ,
+
+                    "doNotAllowThese" : [ "NO permanezca en silencio si observa que esto ocurre en su lugar de trabajo" ] ,
+
+                    "importantThingsToKnow" : [ "" ] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/discrimination-on-the-basis-of-race-ethnicity-or-national-origin/#race-ethnicity-or-national de discriminación basada en el origen en el trabajo " ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Discriminación LGBT +" ,
+
+                    "allowThese" : [ "Tenga en cuenta que no puede ser discriminado en el trabajo o la escuela por su sexualidad",
+
+                      "Reúna toda la información que pueda necesitar para respaldar su caso" ] ,
+
+                    "doNotAllowThese" : [ "NO permanezca en silencio si observa que esto ocurre en su lugar de trabajo" ] ,
+
+                    "importantThingsToKnow" : [ "La discriminación en la vivienda basada en la sexualidad es ilegal, y debe informarla si esto le sucede a usted",
+
+                      "Es ilegal que tu escuela te expulse públicamente, incluso si te has descubierto a ti mismo"] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/lgbtq-rights/" ]
+
+                  } ,
+
+                  {
+
+                    "category" : "Discriminación religiosa" ,
+
+                    "allowThese" : [ "Tenga en cuenta que no puede ser discriminado en el trabajo o la escuela por su sexualidad",
+
+                      "Reúna toda la información que pueda necesitar para respaldar su caso" , "Presente un reclamo de igualdad de oportunidades de empleo" ] ,
+
+                    "doNotAllowThese" : [ "NO permanezca en silencio si observa que esto ocurre en su lugar de trabajo" ] ,
+
+                    "importantThingsToKnow" : [ "" ] ,
+
+                    "sources" : [ "https://www.aclu.org/know-your-rights/religious-freedom/" ]
+
+                  }
+
+                ]
+
+              }
+
+            ]
+
+          }
+
         }
-      ]
-    }
-  }
+
