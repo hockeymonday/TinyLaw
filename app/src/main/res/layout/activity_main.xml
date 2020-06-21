@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/android"
+        android:src="@drawable/ok"
         android:id="@+id/ui"
         />
 
@@ -21,14 +21,14 @@
         android:layout_height="50dp"
         android:layout_alignBottom="@id/ui"
         android:layout_centerHorizontal="true"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:layout_marginBottom="40dp"/>
     
     <android.widget.SearchView
-        android:layout_width="320dp"
+        android:layout_width="280dp"
         android:layout_height="37dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="31dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="61dp"
         android:iconifiedByDefault="false"
         android:searchIcon="@null"
         android:searchHintIcon="@null"
@@ -41,7 +41,7 @@
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="132dp"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:textColor="@color/White"
         android:textAlignment="viewStart"
         android:id="@+id/button1"
@@ -53,7 +53,7 @@
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="235dp"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:id="@+id/button2"
         />
 
@@ -63,7 +63,7 @@
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="340dp"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:id="@+id/button3"
         />
 
@@ -73,7 +73,7 @@
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="444dp"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:id="@+id/button4"
         />
 
@@ -83,7 +83,7 @@
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="548dp"
-        android:background="#00fffff"
+        android:background="#00ff001C"
         android:id="@+id/button5"
         />
 

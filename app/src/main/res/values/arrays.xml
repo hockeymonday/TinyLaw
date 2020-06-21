@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>العربية</item>
+        <item>普通话</item>
+        <item>한국인</item>
+        <item></item>
+    </string-array>
+</resources>
