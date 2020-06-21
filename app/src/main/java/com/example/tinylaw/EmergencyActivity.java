@@ -61,7 +61,7 @@ public class EmergencyActivity extends AppCompatActivity {
 
         //Acquire emergency contacts, send initial message
 
-        //Start recording, save output vid file
+        //Check for camera, start recording, save output vid file
         /*
         CameraManager camMan = getInstance();
         if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY)) {
