@@ -54,9 +54,25 @@ public class MainActivity extends AppCompatActivity {
         }
         getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
 
+
+        try {
+            JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
+            JSONObject info = jsonObject.getJSONObject("info");
+            JSONArray infoList = info.getJSONArray("categories");
+
+
+            //collect name of each category
+            final String[] categoryNames = new String[0];
+            for(int i=0; i<infoList.length(); i++) {
+                String categoryName = infoList.getJSONObject(i).getString("name");
+                categoryNames[i] = categoryName;
+            }
+        } catch(JSONException e){
+            e.printStackTrace();
+        }
     }
 
-//Call English JSON
+    //Call English JSON
     public String loadJSONFromAsset() {
         String json = null;
         try{
@@ -74,20 +90,4 @@ public class MainActivity extends AppCompatActivity {
         return json;
     }
 
-    try{
-        JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
-        JSONObject info = jsonObject.getJSONObject("info");
-        JSONArray infoList = info.getJSONArray("categories");
-
-
-        //collect name of each category
-        final String[] categoryNames = new String[0];
-        for(int i=0; i<infoList.length(); i++) {
-            String categoryName = infoList.getJSONObject(i).getString("name");
-            categoryNames[i] = categoryName;
-        }
-    }
-    catch{
-        //insert catch
-    }
 }
