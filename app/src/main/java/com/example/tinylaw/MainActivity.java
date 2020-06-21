@@ -19,12 +19,11 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.ui);
         emergency = findViewById(R.id.emergency);
 
-        //I have no clue if this is right
+        //Emergency button activation
         Button emergency = findViewById(R.id.emergency);
         emergency.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent emergencyActivityIntent = new Intent(MainActivity.this, emergencyActivity.class);
-                //The parameter below is not recognized by the compiler
+                Intent emergencyActivityIntent = new Intent(MainActivity.this, EmergencyActivity.class);
                 startActivity(emergencyActivityIntent);
             }
         });
