@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SearchView;
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, SetupActivity.class));
         }
         getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
+
+        closeKeyboard();
 
         // JSON parsing
         try {
@@ -108,6 +111,16 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
         return json;
+    }
+
+    private void closeKeyboard() {
+        View currentFocus = this.getCurrentFocus();
+        if (currentFocus!=null){
+            android.view.inputmethod.InputMethodManager imm = (android.view.inputmethod.InputMethodManager)this.getSystemService(android.content.Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(currentFocus.getWindowToken(), 0);
+        }
+        this.getWindow().setSoftInputMode(
+                WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
 }

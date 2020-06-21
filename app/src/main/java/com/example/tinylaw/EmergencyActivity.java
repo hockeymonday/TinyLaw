@@ -53,9 +53,9 @@ public class EmergencyActivity extends AppCompatActivity {
             //Acquire emergency contacts, send initial message
 
             //Start recording, save output vid file
-            if (hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+            /*if (hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
                 //
-            }
+            }*/
 
             //Send output vid file to emergency contacts
 
