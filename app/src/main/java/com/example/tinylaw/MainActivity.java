@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         emergency = findViewById(R.id.emergency);
         searchView = findViewById(R.id.search_bar);
         searchView.setQueryHint("Search for a Right");
+        Intent intent = getIntent();
+        String language = intent.getStringExtra("language");
 
         //Emergency button activation
         Button emergency = findViewById(R.id.emergency);
@@ -41,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(emergencyActivityIntent);
             }
         });
-
 
         // Run Setup Activity on First App Open
         Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         // JSON parsing
         try {
-            JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
+            JSONObject jsonObject = new JSONObject(loadJSONFromAsset(language));
             JSONObject info = jsonObject.getJSONObject("info");
             JSONArray infoList = info.getJSONArray("categories");
 
@@ -72,11 +73,28 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //Call English JSON
-    public String loadJSONFromAsset() {
+    //Call JSON
+    public String loadJSONFromAsset(String language) {
+
+        // Select the right language JSON
+        String selected = "englishLaws.json";
+        if (language=="English") {
+            selected = "englishLaws.json";
+        } else if(language=="Español") {
+            selected = "spanishLaws.json";
+        } else if(language=="Français") {
+            selected = "frenchLaws.json";
+        } else if(language=="العربية") {
+            selected = "arabicLaws.json";
+        } else if(language=="普通话") {
+            selected = "chineseLaws.json";
+        } else if(language=="한국인") {
+            selected = "koreanLaws.json";
+        }
+
         String json = null;
         try{
-            InputStream is = getAssets().open("englishLaws.json");
+            InputStream is = getAssets().open(selected);
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

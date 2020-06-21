@@ -2,6 +2,7 @@ package com.example.tinylaw;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -41,6 +42,9 @@ public class SetupActivity extends AppCompatActivity implements AdapterView.OnIt
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String item = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(),"Selected: "+item,Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this,MainActivity.class);
+        intent.putExtra("language",item);
+        startActivity(intent);
     }
 
     @Override
