@@ -45,8 +45,18 @@ public class EmergencyActivity extends AppCompatActivity {
             userBrightness = (int)window.getAttributes().screenBrightness;
             Settings.System.putInt(contentResolver, Settings.System.SCREEN_BRIGHTNESS, brightness);
             WindowManager.LayoutParams layout = window.getAttributes();
+            //Sets minimum brightness to layout object and screen
             layout.screenBrightness = brightness;
-            //Sets minimum brightness
+            window.setAttributes(layout);
+
+            //Acquire emergency contacts, send initial message
+
+            //Start recording, save output vid file
+
+            //Send output vid file to emergency contacts
+
+            //Restores user's original brightness setting
+            layout.screenBrightness = userBrightness;
             window.setAttributes(layout);
         }
     }
