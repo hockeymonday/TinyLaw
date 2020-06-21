@@ -1,6 +1,8 @@
 package com.example.tinylaw;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,15 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = findViewById(R.id.ui);
         emergency = findViewById(R.id.emergency);
-
-        //Emergency button activation
-        Button emergency = findViewById(R.id.emergency);
-        emergency.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent emergencyActivityIntent = new Intent(MainActivity.this, EmergencyActivity.class);
-                startActivity(emergencyActivityIntent);
-            }
-        });
 
     }
 }

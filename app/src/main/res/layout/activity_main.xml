@@ -2,9 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:id="@+id/relative">
+    android:id="@+id/relative"
+    android:background="#F3F3F3">
 
     <ImageView
         android:layout_width="match_parent"
@@ -21,5 +23,69 @@
         android:layout_centerHorizontal="true"
         android:background="#00fffff"
         android:layout_marginBottom="40dp"/>
+    
+    <android.widget.SearchView
+        android:layout_width="320dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="31dp"
+        android:iconifiedByDefault="false"
+        android:searchIcon="@null"
+        android:searchHintIcon="@null"
+        android:id="@+id/search_bar"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="132dp"
+        android:background="#00fffff"
+        android:textColor="@color/White"
+        android:textAlignment="viewStart"
+        android:id="@+id/button1"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="235dp"
+        android:background="#00fffff"
+        android:id="@+id/button2"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:background="#00fffff"
+        android:id="@+id/button3"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="444dp"
+        android:background="#00fffff"
+        android:id="@+id/button4"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="548dp"
+        android:background="#00fffff"
+        android:id="@+id/button5"
+        />
+
 
 </RelativeLayout>
