@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,6 +9,83 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ui1"/>
+        android:src="@drawable/ui1"
+        android:id="@+id/ui1"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/policeButton1"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui1"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="72dp"
+        android:background="#00ff001C"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/policeButton2"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui1"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="190dp"
+        android:background="#00ff001C"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/policeButton3"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui1"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="305dp"
+        android:background="#00ff001C"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/policeButton4"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui1"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="420dp"
+        android:background="#00ff001C"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/policeButton5"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_alignLeft="@id/ui1"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="535dp"
+        android:background="#00ff001C"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+</RelativeLayout>
