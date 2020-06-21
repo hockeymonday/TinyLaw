@@ -34,12 +34,16 @@ public class MainActivity extends AppCompatActivity {
         searchView.setQueryHint("Search for a Right");
         Intent intent = getIntent();
         String language = intent.getStringExtra("language");
+        final String contactName = intent.getStringExtra("name");
+        final String contactPhone = intent.getStringExtra("number");
 
         //Emergency button activation
         Button emergency = findViewById(R.id.emergency);
         emergency.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent emergencyActivityIntent = new Intent(MainActivity.this, EmergencyActivity.class);
+                emergencyActivityIntent.putExtra("name",contactName);
+                emergencyActivityIntent.putExtra("number",contactPhone);
                 startActivity(emergencyActivityIntent);
             }
         });
@@ -50,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
         if (isFirstRun) {
             //show start activity
             startActivity(new Intent(MainActivity.this, SetupActivity.class));
-            Toast.makeText(MainActivity.this, "First Run", Toast.LENGTH_LONG)
-                    .show();
         }
         getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
 

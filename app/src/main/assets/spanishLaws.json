@@ -42,31 +42,33 @@
             },
             {
               "category":"La policía ha llegado a mi casa ...",
-              "allowThese":["Ask the officer to slip the warrant under the door or hold it up to the window.",
-                "Officers may not search your home without a warrant, and even if they have one you can still elect to remain silent."],
-              "doNotAllowThese":["DO NOT invite the officer into your home. They cannot search without an arrest clearly listing your name and address, even if it is not your home, you are not required to allow the officer in.",
-                "DO NOT sign anything you cannot read or fully understand."],
+              "allowThese":["Pídale al oficial que deslice la orden debajo de la puerta o que la sostenga en la ventana.",
+                "Los oficiales no pueden registrar su casa sin una orden judicial, e incluso si tienen una, aún puede elegir permanecer en silencio."],
+              "doNotAllowThese":[
+                "NO invite al oficial a su casa. No pueden buscar sin un arresto que indique claramente su nombre y dirección, incluso si no es su casa, no está obligado a permitir que el oficial entre.",
+                "NO firme nada que no pueda leer o comprender completamente."],
               "importantThingsToKnow":["If your a guest in the house, make it clear to the police that you do not have the authority to let them inside without the homeowner's permission."],
               "source":["https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door"]
             },
             {
-              "category":"I have been arrested...",
-              "allowThese":["Remember you have the right to remain silent, don't answer any questions or make decisions without a lawyer.",
-                "You have the right to a phone call. Officers cannot listen if you are speaking to a lawyer, they will often listen to the calls you make.",
-                "If you are being harmed physically by the police in a restraint, make it clear to the police how they are harming you.",
-                "Be courteous and passive. This will aid in avoiding any charges for resisting arrest."],
-              "doNotAllowThese":["DO NOT resist arrest, even if the arrest may seem unfair. Follow the officers instructions and keep calm.",
-                "DO NOT make any decisions, explain anything or sign anything without your lawyer. Even if you cannot pay for one, you have the right to a free lawyer.",
-                "DO NOT make any sudden movements. Move very deliberately and make it clear to the officers what your doing, officers will take action if they believe your reaching for a weapon.",
-                "DO NOT attempt to harm officers, police will act accordingly in the event they believe their lives are in danger.",
-                "DO NOT consent to a search unless the officer can present a warrant with your name."],
+              "category":"He sido arrestado ...",
+              "allowThese":["Recuerde que tiene derecho a permanecer en silencio, no responda ninguna pregunta ni tome decisiones sin un abogado",
+                "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace.",
+                "Si la policía te hace daño físicamente con moderación, deja en claro a la policía cómo te están lastimando",
+                "Sea cortés y pasivo. Esto ayudará a evitar cualquier cargo por resistir el arresto."],
+              "doNotAllowThese":["NO resista el arresto, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
+                "NO tome decisiones, explique nada ni firme nada sin su abogado. Incluso si no puede pagar por uno, tiene derecho a un abogado gratuito.",
+                "NO haga movimientos bruscos. Muévase muy deliberadamente y deje en claro a los oficiales lo que está haciendo, los oficiales tomarán medidas si creen que está buscando un arma.",
+                "NO intente dañar a los oficiales, la policía actuará en consecuencia en caso de que crean que sus vidas están en peligro.",
+                "NO autorice una búsqueda a menos que el oficial pueda presentar una orden con su nombre."],
               "importantThingsToKnow":[""],
               "sources":[""]
             },
             {
-              "category":"My rights have been violated...",
-              "allowThese":["List down all evidence relative to what happened. Get in contact with witnesses, if you are injured, seek medical help & photograph your injuries",
-                "File a complaint to their agency's internal affairs divison or civilian complaint board. You even can file a complaint anonymously"
+              "category": "Mis derechos han sido violados ...",
+              "allowThese":[
+                "Enumere todas las pruebas relacionadas con lo que sucedió. Póngase en contacto con testigos, si está lesionado, busque ayuda médica y fotografíe sus lesiones.",
+                "Presente una queja en la división de asuntos internos de su agencia o en la junta de quejas civiles. Incluso puede presentar una queja de forma anónima."
               ],
               "doNotAllowThese":[""],
               "importantThingsToKnow":[""],
@@ -75,80 +77,86 @@
           ]
         },
         {
-          "name": "Immigrants' Rights",
+          "name": "Derechos de los inmigrantes",
           "subcategories": [
             {
-              "category":"Law enforcement asks about my immigration status...",
-              "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
-                "If your over the age of 18, keep your papers with you at all times. If you do not have them, exercise your right to remain silent or ask to speak to a lawyer.",
-                "If you are not a US citizen, and an immigration agent asks for your papers, you must show them if you have them with you.",
-                "If an immigration agent asks to search you, you have the right to say no. Agents do not have the right to search you or your possesions without consent or reason"],
-              "doNotAllowThese":["DO NOT bargain with the officer. You have nothing to gain and everything to lose. If you are unsure, remain silent.",
-                "DO NOT run, argue or obstruct the officer, even if the arrest may seem unfair. Follow the officers instructions and keep calm."],
-              "importantThingsToKnow":["In some states, you are  required to show your name to law enforcement in an encounter, you are not obligated to answer other questions.",
-                "If you are pulled over, the officer can require you to show your license, vehicle registration and proof of insurance, your immigration status in not included.",
-                "ICE officers can ask about your immigration status when leaving or entering the country. If you are a LPR who has maintained your status and permanent residency, you only have to answer questions regarding your identity and residency, they may not deny you entry into the United States for failure to answer other questions",
-                "If you are a non-citizen visa holder, you may be denied entry into the US for failure to answer the questions."],
+              "category":"La policía pregunta por mi estado migratorio ...",
+              "allowThese":[
+                "Recuerde su derecho a permanecer en silencio, no tiene que explicar o conversar sobre su estado migratorio a las fuerzas del orden.",
+                "Si es mayor de 18 años, mantenga sus documentos con usted en todo momento. Si no los tiene, ejerza su derecho a permanecer en silencio o solicite hablar con un abogado.",
+                "Si no es ciudadano de los EE. UU. Y un agente de inmigración le pide sus documentos, debe mostrarlos si los tiene.",
+                "Si un agente de inmigración le solicita que lo busque, tiene derecho a decir que no. Los agentes no tienen derecho a registrarlo a usted ni a sus posesiones sin su consentimiento o razón."],
+              "doNotAllowThese":["NO negocies con el oficial. No tienes nada que ganar ni mucho que perder. Si no estás seguro, permanece en silencio.",
+                "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma."],
+              "importantThingsToKnow":[
+                "En algunos estados, se requiere que muestre su nombre a la policía en un encuentro, no está obligado a responder otras preguntas.",
+                "Si lo detienen, el oficial puede exigirle que muestre su licencia, registro de vehículo y comprobante de seguro, su estado de inmigración no está incluido.",
+                "Los oficiales de ICE pueden preguntarle sobre su estado migratorio al salir o ingresar al país. Si usted es un LPR que ha mantenido su estado y residencia permanente, solo tiene que responder preguntas sobre su identidad y residencia, no pueden negarle la entrada al país. Estados Unidos por no responder otras preguntas.",
+                "Si usted es un titular de visa no ciudadano, se le puede negar la entrada a los Estados Unidos por no responder las preguntas."],
               "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#law-enforcement-asks-about-my-immigration-status"]
             },
             {
-              "category":"I've been stopped by police or ICE",
-              "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
-                "You have the right to a phone call. Officers cannot listen if you are speaking to a lawyer, they will often listen to the calls you make.",
-                "If you are detained by ICE, you have the right to speak to a lawyer, but the government is not obligated to give you one.",
-                "You are not obligated to answer questions about where you were born, your citizenship status, or how you entered the country. (Separate rules apply at international borders and airports, and for individuals on certain nonimmigrant visas, including tourists and business travelers.)",
-                "You do not have to consent to officers searching you, however officers may pat you down if they suspect a weapon."],
-              "doNotAllowThese":["DO NOT run, argue or obstruct the officer, even if the arrest may seem unfair. Follow the officers instructions and keep calm.",
-                "DO NOT lie or present false documents."],
-              "importantThingsToKnow":["Keep a copy of your immigration documents with someone you trust",
-                "You have the right to contact your consulate or have an officer inform the consulate of your detention",
-                "Remember your immigration number and share it with your family, it will help them track you."],
+              "category": "He sido detenido por la policía o ICE",
+              "allowThese":[
+                "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
+                "Usted tiene derecho a una llamada telefónica. Los oficiales no pueden escucharlo si está hablando con un abogado, a menudo escuchan las llamadas que hace.",
+                "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno.",
+                "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país. (Se aplican reglas separadas en las fronteras y aeropuertos internacionales, y para personas con ciertas visas de no inmigrante, incluidos turistas y viajeros de negocios). ",
+                "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma."],
+              "doNotAllowThese":[
+                "NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
+                "NO mienta ni presente documentos falsos."],
+              "importantThingsToKnow":["Guarde una copia de sus documentos de inmigración con alguien de su confianza",
+                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención",
+                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
               "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
             },
             {
-              "category":"Police or ICE are at  my home",
-              "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
-                "Ask to see the agent's identification through a window, and if they have a signed warrant that explains the search..",
-                "If you are detained by ICE, you have the right to speak to a lawyer, but the government is not obligated to give you one."],
-              "doNotAllowThese":["DO NOT run, argue or obstruct the officer, even if the arrest may seem unfair. Follow the officers instructions and keep calm.",
-                "DO NOT lie or present false documents."],
-              "importantThingsToKnow":["Keep a copy of your immigration documents with someone you trust",
-                "You have the right to contact your consulate or have an officer inform the consulate of your detention",
-                "Remember your immigration number and share it with your family, it will help them track you."],
+              "category": "La policía o ICE están enfrente de mi casa",
+              "allowThese":["Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
+                "Pida ver la identificación del agente a través de una ventana, y si tienen una orden firmada que explique la búsqueda ...",
+                "Si ICE lo detiene, tiene derecho a hablar con un abogado, pero el gobierno no está obligado a darle uno."],
+              "doNotAllowThese":["NO corra, discuta u obstruya al oficial, incluso si el arresto puede parecer injusto. Siga las instrucciones de los oficiales y mantenga la calma.",
+                "NO mienta ni presente documentos falsos."],
+              "importantThingsToKnow":["Guarde una copia de sus documentos de inmigración con alguien de su confianza.",
+                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención.",
+                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
               "sources":["https://www.aclu.org/know-your-rights/immigrants-rights/#ive-been-stopped-by-police-or-ice"]
             },
             {
-              "category":"I need help from police",
-              "allowThese":["Remember your right to remain silent, you do not have to explain or converse about your immigration status to law enforcement.",
-                "If you are detained by police, you retain the right to speak to a lawyer.",
-                "You are not obligated to answer questions about where you were born, your citizenship status, or how you entered the country.",
-                "You do not have to consent to officers searching you, however officers may pat you down if they suspect a weapon."],
-              "doNotAllowThese":["DO NOT include any immigration information when you speak to officers",
-                "DO NOT lie or present false documents."],
-              "importantThingsToKnow":["Keep a copy of your immigration documents with someone you trust",
-                "You have the right to contact your consulate or have an officer inform the consulate of your detention",
-                "Remember your immigration number and share it with your family, it will help them track you."],
+              "category":"Necesito ayuda de la policia",
+              "allowThese":[
+                "Recuerde su derecho a permanecer en silencio, no tiene que explicar ni conversar sobre su estado migratorio a las fuerzas del orden.",
+                "Si la policía lo detiene, se reserva el derecho de hablar con un abogado.",
+                "No está obligado a responder preguntas sobre dónde nació, su estado de ciudadanía o cómo ingresó al país.",
+                "No tienes que dar tu consentimiento para que los oficiales te busquen, sin embargo, los oficiales pueden detenerte si sospechan de un arma."],
+              "doNotAllowThese":["NO incluya ninguna información de inmigración cuando hable con los oficiales",
+                "NO mienta ni presente documentos falsos."],
+              "importantThingsToKnow":[
+                "Guarde una copia de sus documentos de inmigración con alguien de su confianza.",
+                "Tiene derecho a contactar a su consulado o hacer que un oficial informe al consulado de su detención.",
+                "Recuerde su número de inmigración y compártalo con su familia, les ayudará a rastrearlo."],
               "sources":[""]
             }
           ]
         },
         {
-          "name": "Domestic Violence",
+          "name":"Violencia doméstica",
           "subcategories": [
             {
-              "category": "How do I escape my abusive partner?",
-              "allowThese": ["You have the right to be free from all forms of abuse",
-                "Find a safe shelter near you, or stay with a family member.",
-                "Contact a lawyer through Break the Cycle if you live in Washington DC or Los Angeles.",
-                "File for a restraining order. You may contact your local domestic violence hotline or shelter for help."],
-              "doNotAllowThese": ["DO NOT speak up when you are not ready."],
-              "importantThingsToKnow":["Minors require extra legal attention when filing for a restraining order."]
+              "category": "¿Cómo escapo de mi pareja abusiva?",
+              "allowThese": ["Tiene derecho a estar libre de todas las formas de abuso",
+                "Encuentre un refugio seguro cerca de usted o quédese con un familiar.",
+                "Comuníquese con un abogado a través de Break the Cycle si vive en Washington DC o Los Ángeles",
+                "Solicite una orden de restricción. Puede ponerse en contacto con su línea directa local de violencia doméstica o refugio para obtener ayuda."],
+              "doNotAllowThese": ["NO hables cuando no estés listo."],
+              "importantThingsToKnow":["Los menores requieren atención legal adicional cuando solicitan una orden de restricción."]
             },
             {
-              "category": "Where can I call to discuss my situation?",
-              "allowThese": ["Call 1-800-799-7233",
-                "If you are unable to speak, you can log onto thehotline.org",
-                "Text LOVEIS to 1-866-331-9474."],
+              "category": "¿Dónde puedo llamar para discutir mi situación?",
+              "allowThese": ["Llame al 1-800-799-7233.",
+                "Si no puede hablar, puede iniciar sesión en thehotline.org.",
+                "Envía un mensaje de texto con LOVEIS al 1-866-331-9474."],
               "doNotAllowThese": ["",""],
               "sources": ["https://www.womenslaw.org/laws/nc/restraining-orders/domestic-violence-protective-orders-50b-orders/basic-info#node-33236",
                 "https://www.thehotline.org"]
@@ -156,20 +164,20 @@
           ]
         },
         {
-          "name": "Protester's Rights",
+          "name": "Derechos del manifestante",
           "subcategories": [
             {
-              "category": "I'm attending a protest",
-              "allowThese": ["Stay in traditional public forums, which are areas such as parks, streets, and sidewalks.",
-                "Feel free to photograph anything in public view.",
-                "Feel free to march in the streets so long as you're not obstructing traffic."],
-              "doNotAllowThese": ["DO NOT aggravate any counterprotesters. Ensure that you are a safe distance away and continue pursuing your message.",
-                "DO NOT upload photos of individual protestors. These images can be used by law enforcement to track particular people and unfairly subdue them."],
-              "importantThingsToKnow": ["Be loud. Be heard. Exercise your right to free speech."],
+              "category": "Estoy asistiendo a una protesta",
+              "allowThese": ["Quédese en los foros públicos tradicionales, que son áreas como parques, calles y aceras.",
+                "Siéntase libre de fotografiar cualquier cosa a la vista del público.",
+                "Siéntase libre de marchar en las calles siempre que no esté obstruyendo el tráfico."],
+              "doNotAllowThese": ["NO agrave a ningún contraprotestante. Asegúrese de estar a una distancia segura y continúe persiguiendo su mensaje.",
+                "NO suba fotos de manifestantes individuales. Estas imágenes pueden ser utilizadas por la policía para rastrear a personas particulares y someterlas injustamente."],
+              "importantThingsToKnow": ["Sé ruidoso. Sé escuchado. Ejerce tu derecho a la libertad de expresión."],
               "sources": ["https://www.aclu.org/know-your-rights/protesters-rights/#im-attending-a-protest"]
             },
             {
-              "category": "I'm organizing a protest",
+              "category": "Estoy organizando una protesta",
               "allowThese": [],
               "doNotAllowThese": [],
               "importantThingsToKnow": [],
@@ -179,17 +187,17 @@
           ]
         },
         {
-          "name": "Discrimination",
+          "name": "Discriminación",
           "subcategories": [
             {
-              "category": "Sex/Gender",
+              "category": "Sexo / género",
               "allowThese": [""],
               "doNotAllowThese": [""],
               "importantThingsToKnow": [""],
               "sources": [""]
             },
             {
-              "category": "Race",
+              "category": "Raza",
               "allowThese": [""],
               "doNotAllowThese": [""],
               "importantThingsToKnow": [""],
@@ -203,7 +211,7 @@
               "sources": [""]
             },
             {
-              "category": "Religion",
+              "category": "Religión",
               "allowThese": [""],
               "doNotAllowThese": [""],
               "importantThingsToKnow": [""],
