@@ -6,15 +6,16 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:id="@+id/relative"
-    android:background="#616A6F">
+    android:background="@color/LightGoldenrodYellow">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose your language:"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:textColor="@color/White"
+        android:textColor="@color/Black1"
         />
 
     <Spinner
@@ -29,8 +30,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="400dp"
-        android:textColor="@color/White"
-        android:text="Add Emergency Contacts To Be Notified If Emergency Mode Is Started."/>
+        android:textColor="@color/Black1"
+        android:id="@+id/contacttext"
+        android:textStyle="italic"
+        android:text="Add An Emergency Contact To Be Notified If Emergency Mode Is Started."/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Select Emergency Contact"
+        android:id="@+id/select_contact_but"
+        android:background="@color/CornflowerBlue"
+        android:layout_marginTop="460dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black1"
+        android:id="@+id/contact"
+        android:layout_marginTop="550dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/spin"
+        android:layout_marginTop="655dp"
+        android:id="@+id/but"
+        android:background="@color/MediumVioletRed"
+        android:text="Next"/>
 
 
 
