@@ -40,10 +40,12 @@
         android:layout_height="73dp"
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="137dp"
         android:background="#00ff001C"
+        android:text="Sample"
+        android:textSize="20sp"
         android:textColor="@color/White"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:id="@+id/button1"
         />
 
@@ -52,8 +54,12 @@
         android:layout_height="73dp"
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="235dp"
+        android:layout_marginTop="240dp"
         android:background="#00ff001C"
+        android:text="Sample"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
         android:id="@+id/button2"
         />
 
@@ -62,8 +68,12 @@
         android:layout_height="73dp"
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="345dp"
         android:background="#00ff001C"
+        android:text="Sample"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
         android:id="@+id/button3"
         />
 
@@ -72,8 +82,12 @@
         android:layout_height="73dp"
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="444dp"
+        android:layout_marginTop="449dp"
         android:background="#00ff001C"
+        android:text="Sample"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
         android:id="@+id/button4"
         />
 
@@ -82,8 +96,12 @@
         android:layout_height="73dp"
         android:layout_alignLeft="@id/ui"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginTop="553dp"
         android:background="#00ff001C"
+        android:text="Sample"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
         android:id="@+id/button5"
         />
 

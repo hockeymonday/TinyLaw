@@ -3,8 +3,10 @@ package com.example.tinylaw;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -18,21 +20,37 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     Button emergency;
     SearchView searchView;
+    Button button1;
+    Button button2;
+    Button button3;
+    Button button4;
+    Button button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        button1 = findViewById(R.id.button1);
+        button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
+        button4 = findViewById(R.id.button4);
+        button5 = findViewById(R.id.button5);
         imageView = findViewById(R.id.ui);
         emergency = findViewById(R.id.emergency);
         searchView = findViewById(R.id.search_bar);
         searchView.setQueryHint("Search for a Right");
+        // Stop Auto Search on Launch
+        searchView.setFocusable(false);
+        searchView.setIconified(false);
+        searchView.clearFocus();
+
         Intent intent = getIntent();
         String language = intent.getStringExtra("language");
         final String contactName = intent.getStringExtra("name");
@@ -58,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
         }
         getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
 
-        closeKeyboard();
 
         // JSON parsing
         try {
@@ -68,10 +85,37 @@ public class MainActivity extends AppCompatActivity {
 
 
             //collect name of each category
-            final String[] categoryNames = new String[0];
+            final ArrayList<String> categoryNames = new ArrayList<String>();
             for(int i=0; i<infoList.length(); i++) {
                 String categoryName = infoList.getJSONObject(i).getString("name");
-                categoryNames[i] = categoryName;
+                categoryNames.add(categoryName);
+                // Assign text to each button
+                if (i==0){
+                    button1.setText(categoryName);
+                    Typeface face;
+                    face = Typeface.createFromAsset(getAssets(),"ac9.otf");
+                    button1.setTypeface(face);
+                } else if (i==1){
+                    button2.setText(categoryName);
+                    Typeface face;
+                    face = Typeface.createFromAsset(getAssets(),"ac9.otf");
+                    button2.setTypeface(face);
+                } else if (i==2){
+                    button3.setText(categoryName);
+                    Typeface face;
+                    face = Typeface.createFromAsset(getAssets(),"ac9.otf");
+                    button3.setTypeface(face);
+                } else if (i==3){
+                    button4.setText(categoryName);
+                    Typeface face;
+                    face = Typeface.createFromAsset(getAssets(),"ac9.otf");
+                    button4.setTypeface(face);
+                } else if (i==4){
+                    button5.setText(categoryName);
+                    Typeface face;
+                    face = Typeface.createFromAsset(getAssets(),"ac9.otf");
+                    button5.setTypeface(face);
+                }
             }
         } catch(JSONException e){
             e.printStackTrace();
@@ -111,16 +155,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
         return json;
-    }
-
-    private void closeKeyboard() {
-        View currentFocus = this.getCurrentFocus();
-        if (currentFocus!=null){
-            android.view.inputmethod.InputMethodManager imm = (android.view.inputmethod.InputMethodManager)this.getSystemService(android.content.Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(currentFocus.getWindowToken(), 0);
-        }
-        this.getWindow().setSoftInputMode(
-                WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
 }
