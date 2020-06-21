@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 emergencyActivityIntent.putExtra("number",contactPhone);
                 startActivity(emergencyActivityIntent);
             }
-        });
+        }
+        );
 
         // Run Setup Activity on First App Open
         Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
