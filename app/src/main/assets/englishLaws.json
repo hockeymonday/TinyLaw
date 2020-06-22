@@ -7,7 +7,7 @@
                     "name": "Police Encounters",
                     "subcategories": [
                         {
-                            "category":"I have been pulled over...",
+                            "category":"Pulled Over?",
                             "allowThese":["Pull over at the most immediate safe space.",
                                         "Turn on your internal lights and roll your windows halfway down.",
                                         "Place your hands on your steering wheel, clearly visible. The passenger's hands should be on the dashboard.",
@@ -23,7 +23,7 @@
                                     "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
                         },
                         {
-                            "category":"I have been detained in public...",
+                            "category":"Detained in Public?",
                             "allowThese":["Stay calm. Do your best not to exacerbate the situation by not resisting, yelling at, or running from officers.",
                                 "Remember your right to remain silent, and exercise it by saying 'I exercise my right to remain silent. I request to speak to a lawyer.'",
                                 "Ask the officer if you are being detained or arrested. If the answer is no, you may walk away.",
@@ -38,7 +38,7 @@
                             "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#ive-been-pulled-over-by-the-police"]
                         },
                         {
-                            "category":"Police have arrived at my house...",
+                            "category":"Police at your house?",
                             "allowThese":["Ask the officer to slip the warrant under the door or hold it up to the window.",
                                 "Officers may not search your home without a warrant, and even if they have one you can still elect to remain silent."],
                             "doNotAllowThese":["DO NOT invite the officer into your home. They cannot search without an arrest clearly listing your name and address, even if it is not your home, you are not required to allow the officer in.",
@@ -47,7 +47,7 @@
                             "sources":["https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door"]
                         },
                         {
-                            "category":"I have been arrested...",
+                            "category":"Arrested?",
                             "allowThese":["Remember you have the right to remain silent, don't answer any questions or make decisions without a lawyer.",
                                 "You have the right to a phone call. Officers cannot listen if you are speaking to a lawyer, they will often listen to the calls you make.",
                                 "If you are being harmed physically by the police in a restraint, make it clear to the police how they are harming you.",
@@ -61,7 +61,7 @@
                             "sources":["\"https://www.aclu.org/know-your-rights/stopped-by-police/#the-police-are-at-my-door\""]
                         },
                         {
-                            "category":"My rights have been violated...",
+                            "category":"Rights Violated?",
                             "allowThese":["List down all evidence relative to what happened. Get in contact with witnesses, if you are injured, seek medical help & photograph your injuries",
                                 "File a complaint to their agency's internal affairs division or civilian complaint board. You even can file a complaint anonymously"
                             ],
