@@ -16,6 +16,14 @@
         />
 
     <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#00ff001C"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/searchlol"/>
+
+    <Button
         android:id="@+id/emergency"
         android:layout_width="50dp"
         android:layout_height="50dp"

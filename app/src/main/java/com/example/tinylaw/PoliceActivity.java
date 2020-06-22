@@ -53,11 +53,11 @@ public class PoliceActivity extends AppCompatActivity {
         // Get the string as an array list
         Intent intent = getIntent();
         String jsonArray = intent.getStringExtra("police");
-        try {
+        /*try {
             JSONArray array = new JSONArray(jsonArray);
         } catch (JSONException e) {
             e.printStackTrace();
-        }
+        }*/
 
         policeButton1.setText("Pulled Over?");
         policeButton1.setOnClickListener(new View.OnClickListener() {

@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     Button button4;
     Button button5;
     JSONArray infoList;
+    Button search;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
         button4 = findViewById(R.id.button4);
         button5 = findViewById(R.id.button5);
+        search = findViewById(R.id.searchlol);
         imageView = findViewById(R.id.ui);
         emergency = findViewById(R.id.emergency);
         searchView = findViewById(R.id.search_bar);
@@ -68,6 +70,16 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         );
+
+
+
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(getApplicationContext(), SmallActivity.class);
+                startActivity(intent3);
+            }
+        });
 
         // Run Setup Activity on First App Open
         Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
