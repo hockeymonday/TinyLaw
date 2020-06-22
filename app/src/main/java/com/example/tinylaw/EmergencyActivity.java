@@ -16,6 +16,7 @@ import android.os.Handler;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -39,14 +40,22 @@ public class EmergencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency);
         Button stopButton = findViewById(R.id.exit);
+        Toast.makeText(getApplicationContext(),"Recording Video Silently",Toast.LENGTH_LONG).show();
+
+        stopButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         //Send texts to emergency contact
 
-        //Start video recording
+        /*//Start video recording
         Intent takeVideoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
         if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takeVideoIntent, 1);
-        }
+        }*/
 
         //Stop video on button press
 
