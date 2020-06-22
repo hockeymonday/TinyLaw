@@ -2,6 +2,9 @@
 
 [TinyLaw](http://www.youtube.com/watch?v=Nu2UhJ-SD7M "TinyLaw Feature Demo")  is simple safety tool for some of life's most difficult and potentially life-threatening moments. Whether you need quick tips on navigating a sticky immigration situation or you want to stand your ground at a protest, TinyLaw's locally hosted information can come in handy. With no internet connection needed, you can always reduce the risk of being tracked, which can serve you quite nicely in many dangerous scenarios.
 
+![Screenshot 1](images/Screenshot_1592789327.png) ![ScreenShot 2](images/Screenshot_1592789351.png) ![Screenshot 3](images/Screenshot_1592789362.png)
+![Screenshot 2](images/Screenshot_1592789408.png)
+
 ## Information
 TinyLaw sources information from reliable sources such as the ACLU and the National Domestic Violence Hotline. Information is provided for scenarios such as getting pulled over by police officers or being detained while protesting to handling workplace discrimination cases and living with and escaping domestic violence.
 
